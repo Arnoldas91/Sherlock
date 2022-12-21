@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(234, 235, 237);
+}
+
+main {
+    width: 600px;
+    height: 600px;
+    margin-left: calc((100% - 600px)/2);
+    display: inline-block;
+    margin-top: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(32, 43, 73, 0.805);
+}
+
+/* main > div {
+    height: 500px;
+    width: 250px;
+    display: inline-block;
+    float: left;
+} */
+#left {
+    height: 500px;
+    width: 55%;
+    display: inline-block;
+    float: left;
+}
+
+img {
+    width: 100%;
+}
+
+#right {
+    height: 500px;
+    width: 45%;
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
+
+h1 {
+    font-size: 75px;
+}
+
+#TextMedium {
+    font-weight: 750;
+    font-size: 20px;
+}
+
+#TextSmall {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+button {
+    padding: 10px 15px;
+    border: 0px;
+    color: white;
+    background-color: rgb(105, 111, 137);
+    font-weight: 700;
+}
